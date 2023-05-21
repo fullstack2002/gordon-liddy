@@ -163,14 +163,14 @@
     z-index: 3;
 }
 .head {
+    position: relative;
     width: 140px;
     height: 190px;
     background-color: #fedfb2;
-    position: relative;
     left: 49.5%;
     top: 34%;
     z-index: 3;
-    border-radius: 100% / 45% 45% 120% 120%;
+    border-radius: 100% /50% 50% 120% 120%;
     transform: translate(-50%, 0);
 }
 .neck {
@@ -185,4 +185,89 @@
     top: 79%;
     transform: rotate(180deg);
     z-index: 3;
+}
+.hair1 {
+  position: relative;
+  width: 20px;
+  height: 90px;
+  background-color: #000000;
+  border-radius: 40%;
+  bottom: 17%;
+  left: 1%;
+  transform: rotate(2deg);
+  z-index: 1;
+}
+.hair2 {
+  position: relative;
+  width: 20px;
+  height: 90px;
+  background-color: #000000;
+  border-radius: 40%;
+  bottom: 63%;
+  left: 85%;
+  z-index: 1;
+}
+.hair3 {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  background-color: #000000;
+  border-radius: 40%;
+  bottom: 120%;
+  left: 15%;
+  z-index: 1;
+}
+.hair4 {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: #000000;
+  border-radius: 50%;
+  bottom: 133%;
+  left: 5%;
+  transform: rotate(-20deg);
+  z-index: 1;
+}
+.hair5 {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: #000000;
+  border-radius: 50%;
+  bottom: 142%;
+  left: 70%;
+  transform: rotate(30deg);
+  z-index: 1;
+}
+.hair6 {
+  position: relative;
+  width: 50px;
+  height: 40px;
+  background-color: #000000;
+  border-radius: 50%;
+  bottom: 155%;
+  left: 35%;
+  z-index: 1;
+}
+.hair7 {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background-color: #000000;
+  border-radius: 50%;
+  bottom: 172%;
+  left: 25%;
+  transform: rotate(20deg);
+  z-index: 1;
+}
+.hair8 {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background-color: #000000;
+  border-radius: 50%;
+  bottom: 188%;
+  left: 39%;
+  transform: rotate(-20deg);
+  z-index: 1;
 }
