@@ -170,7 +170,7 @@
     left: 49.5%;
     top: 34%;
     z-index: 3;
-    border-radius: 100% /50% 50% 120% 120%;
+    border-radius: 100% /45% 45% 120% 120%;
     transform: translate(-50%, 0);
 }
 .neck {
@@ -188,23 +188,23 @@
 }
 .hair1 {
   position: relative;
-  width: 20px;
-  height: 90px;
+  width: 18px;
+  height: 85px;
   background-color: #000000;
   border-radius: 40%;
-  bottom: 17%;
-  left: 1%;
-  transform: rotate(2deg);
+  bottom: 19%;
+  left: 0%;
+  transform: rotate(5deg);
   z-index: 1;
 }
 .hair2 {
   position: relative;
-  width: 20px;
+  width: 18px;
   height: 90px;
   background-color: #000000;
   border-radius: 40%;
   bottom: 63%;
-  left: 85%;
+  left: 87%;
   z-index: 1;
 }
 .hair3 {
@@ -255,9 +255,9 @@
   height: 30px;
   background-color: #000000;
   border-radius: 50%;
-  bottom: 172%;
-  left: 25%;
-  transform: rotate(20deg);
+  bottom: 171.9%;
+  left: 24%;
+  transform: rotate(22deg);
   z-index: 1;
 }
 .hair8 {
@@ -266,8 +266,30 @@
   height: 30px;
   background-color: #000000;
   border-radius: 50%;
-  bottom: 188%;
-  left: 39%;
-  transform: rotate(-20deg);
+  bottom: 188.1%;
+  left: 40%;
+  transform: rotate(-26deg);
+  z-index: 1;
+}
+.hair-element1 {
+  position: relative;
+  width: 20px;
+  height: 16px;
+  background-color: #fedfb2;
+  border-radius: 40%;
+  bottom: 198%;
+  left: 13.8%;
+  transform: rotate(38deg);
+  z-index: 1;
+}
+.hair-element2 {
+  position: relative;
+  width: 20px;
+  height: 15px;
+  background-color: #fedfb2;
+  border-radius: 40%;
+  bottom: 204.5%;
+  left: 74.5%;
+  transform: rotate(-45deg);
   z-index: 1;
 }
