@@ -273,23 +273,108 @@
 }
 .hair-element1 {
   position: relative;
-  width: 20px;
+  width: 21px;
   height: 16px;
   background-color: #fedfb2;
   border-radius: 40%;
   bottom: 198%;
-  left: 13.8%;
-  transform: rotate(38deg);
+  left: 13.5%;
+  transform: rotate(35deg);
   z-index: 1;
 }
 .hair-element2 {
   position: relative;
   width: 20px;
-  height: 15px;
+  height: 16px;
   background-color: #fedfb2;
   border-radius: 40%;
-  bottom: 204.5%;
+  bottom: 204.9%;
   left: 74.5%;
-  transform: rotate(-45deg);
+  transform: rotate(-60deg);
   z-index: 1;
+}
+.eyebrow-left {
+  width: 35px;
+  height: 8px;
+  position: absolute;
+  background-color: #463118;
+  border-radius: 50px 70px 5px 5px;
+  top: 38%;
+  left: 21%;
+  z-index: 3;
+}
+.eyebrow-left-part {
+  position: absolute;
+  border-right: 23px solid #463118;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  top: 39%;
+  left: 12%;
+  transform: rotate(-10deg);
+  z-index: 3;
+}
+.eyebrow-right {
+  width: 35px;
+  height: 8px;
+  position: absolute;
+  background-color: #463118;
+  border-radius: 70px 70px 5px 5px;
+  top: 38%;
+  left: 56%;
+  z-index: 3;
+}
+.eyebrow-right-part {
+  position: absolute;
+  border-left: 23px solid #463118;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  top: 39%;
+  left: 74%;
+  transform: rotate(12deg);
+  z-index: 3;
+}
+.mustache {
+  position: relative;
+  border-bottom: 25px solid #000000;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	height: 0;
+	width: 0;
+  bottom: 160%;
+  left: 22%;
+  z-index: 4;
+}
+.nose {
+  position: absolute;
+  width: 15px;
+  height: 9px;
+  top: 63%;
+  left: 44%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border: 2px solid rgba(84, 70, 70, 0.138);
+  background-color: #fedfb2;
+  border-bottom: 0;
+  transform: rotate(180deg);
+  z-index: 5;
+}
+.bottom-lip {
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    top: 52%;
+    left: 27%;
+    z-index: 4;
+    background: #f6a8b15d;
+    clip-path: polygon(
+    10% 79%,
+    25% 90%,
+    40% 95%,
+    60% 95%,
+    70% 92%,
+    90% 79%,
+    30% 85%,
+    85% 85%
+  );
+  z-index: 3;
 }
