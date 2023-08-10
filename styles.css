@@ -189,10 +189,10 @@
 .hair1 {
   position: relative;
   width: 18px;
-  height: 85px;
+  height: 87px;
   background-color: #000000;
   border-radius: 40%;
-  bottom: 19%;
+  bottom: 21%;
   left: 0%;
   transform: rotate(5deg);
   z-index: 1;
@@ -200,11 +200,33 @@
 .hair2 {
   position: relative;
   width: 18px;
-  height: 90px;
+  height: 85px;
   background-color: #000000;
   border-radius: 40%;
-  bottom: 63%;
+  bottom: 65%;
   left: 87%;
+  z-index: 2;
+}
+.another-hair1 {
+  position: relative;
+  width: 12px;
+  height: 36px;
+  background-color: #000000;
+  border-radius: 40%;
+  bottom: 62%;
+  left: -98%;
+  transform: rotate(-10deg);
+  z-index: 1;
+}
+.another-hair2 {
+  position: relative;
+  width: 12px;
+  height: 29px;
+  background-color: #000000;
+  border-radius: 40%;
+  bottom: 273%;
+  left: 312%;
+  transform: rotate(5deg);
   z-index: 1;
 }
 .hair3 {
@@ -256,7 +278,7 @@
   background-color: #000000;
   border-radius: 50%;
   bottom: 171.9%;
-  left: 24%;
+  left: 23%;
   transform: rotate(22deg);
   z-index: 1;
 }
@@ -273,24 +295,24 @@
 }
 .hair-element1 {
   position: relative;
-  width: 21px;
-  height: 16px;
+  width: 27px;
+  height: 15px;
   background-color: #fedfb2;
-  border-radius: 40%;
-  bottom: 198%;
-  left: 13.5%;
+  border-radius: 50%;
+  bottom: 196%;
+  left: 12.9%;
   transform: rotate(35deg);
   z-index: 1;
 }
 .hair-element2 {
   position: relative;
-  width: 20px;
-  height: 16px;
+  width: 30px;
+  height: 20px;
   background-color: #fedfb2;
   border-radius: 40%;
-  bottom: 204.9%;
-  left: 74.5%;
-  transform: rotate(-60deg);
+  bottom: 202%;
+  left: 69%;
+  transform: rotate(130deg);
   z-index: 1;
 }
 .eyebrow-left {
@@ -394,7 +416,7 @@
   bottom: 220%;
   left: 22%;
   width: 30px;
-  height: 15px;
+  height: 14px;
   background: #ffffff;
   border-radius: 100% / 90%;
   border-top: 3.5px solid #000000;
@@ -420,10 +442,10 @@
 }
 .right-eye {
   position: relative;
-  bottom: 230%;
+  bottom: 229.5%;
   left: 59%;
   width: 30px;
-  height: 15px;
+  height: 14px;
   background: #ffffff;
   border-radius: 100% / 90%;
   border-top: 3.5px solid #000000;
@@ -465,10 +487,10 @@
     width: 70px;
     height: 60px;
     position: absolute;
-    top: 52%;
+    top: 53.3%;
     left: 27%;
     z-index: 4;
-    background: #f6a8b15d;
+    background: #fab1b960;
     clip-path: polygon(
     10% 79%,
     25% 90%,
@@ -480,4 +502,26 @@
     85% 85%
   );
   z-index: 3;
+}
+.left-ear {
+  position: relative;
+  width: 45px;
+  height: 20px;
+  background-color: #fedfb2;
+  border-radius: 50%;
+  bottom: 237%;
+  left: -16%;
+  transform: rotate(80deg);
+  z-index: -1;
+}
+.right-ear {
+  position: relative;
+  width: 45px;
+  height: 20px;
+  background-color: #fedfb2;
+  border-radius: 50%;
+  bottom: 247%;
+  left: 82%;
+  transform: rotate(98deg);
+  z-index: -1;
 }
